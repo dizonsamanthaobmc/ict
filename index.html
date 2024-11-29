@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title> ol
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head> 
+<style>
+  body{
+   background-image: url(newbg.jpeg);
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+  }
+
+  container{
+    background-color: lightgrey;
+  }
+
+
+</style>
+
+<body>
+<div class="container mt-5">
+    <h1 class="mb-4 text-center" style="color:#C98BC7;">
+      Robotics Club Registration Form
+    </h1>    
+
+      <div class="container mb-6">
+        <form>
+        <div class="row mb-4">
+          <div class="col md-6">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="Name" placeholder="Insert Name">
+          </div>
+          <div class="col md-6">
+            <label for="age">Age</label>
+            <input type="age" class="form-control" id="Age" placeholder="Insert Age">
+          </div>
+
+           <div class="container mb-6">
+          <div class="row mb-4">
+          <div class="col md-6">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Insert Email Address">
+          </div>
+          <div class="col md-6">
+            <label for="number">Phone Number</label>
+            <input type="text" class="form-control" id="number" placeholder="Insert Phone Number">
+          </div> </div>
+
+<h3>Preferred Robotic Topics</h3> 
+
+
+<div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Programming
+          </label> <br>
+        </div>
+
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Electronics
+          </label> <br>
+        </div>
+
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Mechanical Design
+          </label> <br>
+        </div>
+
+        <h3>Robotic Experience Level</h3> 
+
+
+<div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Beginner
+          </label> <br>
+        </div>
+
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Intermediate
+          </label> <br>
+        </div>
+
+        <div class="form-check mb-3" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">
+            Advanced
+          </label> <br> Preferred Robotic Topics
+        </div>
+
+         <br><label for="select"><b>Preffered Robotics Project</b></label>
+         <select id="select"name="select">
+          <option value="' selected disabled>Choose a Project</option>
+
+          <option value="Autonomous Delivery Robot>Autonomous Delivery Robot</option>
+
+
+          <option value="Humanoid Robot for Social Interaction>Humanoid Robot for Social Interaction</option>
+
+          <option value=" AHumanoid Robot for Social Interaction> Humanoid Robot for Social Interaction</option>
+
+</select><br>
+<label><b>Statement of Interest</b></label>
+<textarea id="textarea" name="textarea" rows="3"></textarea>
+<br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <button type="reset" class="btn btn-primary">Reset</button>
+          
+        
+
+
+
+
+
+
+      </div>
+    </form>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
